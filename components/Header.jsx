@@ -49,14 +49,18 @@ export default function Header() {
             BodyStyle.setProperty('--bgColorLight', "#252121");
             BodyStyle.setProperty('--bgInverse', '#b3adad');
             BodyStyle.setProperty('--textColor', '#fff');
+            BodyStyle.setProperty('--textColorLight', '#e8e8e8');
             BodyStyle.setProperty('--placeHolderColor', '#858080');
+            BodyStyle.setProperty('--shadow', 'rgb(40 40 40 / 50%)');
         }
         else {
             BodyStyle.setProperty('--bgColor', '#f3eaea');
             BodyStyle.setProperty('--bgColorLight', "#dbdee7");
             BodyStyle.setProperty('--bgInverse', '#2b2828');
             BodyStyle.setProperty('--textColor', '#000');
+            BodyStyle.setProperty('--textColorLight', '#302d2d');
             BodyStyle.setProperty('--placeHolderColor', '#474247');
+            BodyStyle.setProperty('--shadow', 'rgb(5 16 44 / 40%)');
         }
         setDark(dark => !dark);
         setVisible(true);

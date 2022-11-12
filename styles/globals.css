@@ -4,8 +4,10 @@
   --bgInverse: #b3adad;
   --placeHolderColor: #c9c2c2;
   --textColor: #fff;
+  --textColorLight: #E8E8E8;
   --btnColor: rgba(4, 45, 228, 0.719);
   --red: #ff0000;
+  --shadow: rgb(40 40 40 / 50%);
 }
 
 * {
