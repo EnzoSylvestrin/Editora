@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Editora</title>
+        <title>Rei arthur</title>
       </Head>
       <Header />
       <Container>
@@ -24,7 +24,7 @@ export default function Home() {
             <h2>⭐⭐⭐⭐⭐ 5 de 5 estrelas (7 avaliações)</h2>
           </div>
 
-          <h3>Autor: Howard Pyle</h3>
+          <h3 style={{color: '#805318'}}>Autor: Howard Pyle</h3>
 
           <Mainbtn href='#'>Adquira já</Mainbtn>
         </Description>

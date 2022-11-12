@@ -52,7 +52,6 @@ export const Description = styled.div`
     }
 
     h3 {
-        color:  #805318;
         font-size: 19px;
         margin-bottom: 10px;
     }
@@ -145,13 +144,13 @@ export const ContainerComments = styled.section`
 
 export const SingleComment = styled.div`
     width: 70%;
-    border-top: 1px solid #e8e8e8;
+    border-top: 1px solid var(--bgColorLight);
     padding: 25px 0;
     margin: 5px 0;
     color: var(--textColor);
 
     ${props => props.last && css`
-        border-bottom: 1px solid #e8e8e8;
+        border-bottom: 1px solid var(--bgColorLight);
     `}
 
     h1 {
