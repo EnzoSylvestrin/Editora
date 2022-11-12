@@ -26,7 +26,7 @@ export default function Sobrevivendo() {
                     <h2>⭐⭐⭐⭐⭐ 5 de 5 estrelas (7 avaliações)</h2>
                 </div>
 
-                <h3 style={{color: '#a80a0a'}}>Autor: Racionais Mc's</h3>
+                <h3 style={{color: '#a80a0a'}}>Autor: Racionais Mc s</h3>
 
                 <Mainbtn href='#'>Adquira já</Mainbtn>
                 </Description>
