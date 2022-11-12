@@ -144,7 +144,7 @@ export const Ul = styled.ul`
     }
 `
 
-export const StyledA = styled.a`
+export const StyledA = styled.p`
     color: #fff;
     transition: all 0.4s;
     text-decoration: none;
