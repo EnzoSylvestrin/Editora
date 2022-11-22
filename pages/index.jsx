@@ -18,7 +18,7 @@ export default function Home() {
         <Description>
           <h1>Rei Arthur</h1>
           <p>E os cavaleiros da távola redonda</p>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis assumenda inventore consectetur. autem voluptas nesciunt hic accusantium cupiditate eius minima consectetur voluptatibus aperiam.</span>
+          <span>O livro relata as batalhas de Arthur com o Cavaleiro Negro e com o Duque da Nortúmbria, e seus esforços para manter consigo a mágica Excalibur; seu amor por Lady Guinevere e as origens da Távola Redonda; Merlin, traído pela feiticeira Vivien, além de Morgana e a Dama do Lago; Sir Pellias, Sir Gawaine e tantos outros nobres cavaleiros. E, ao fim, vê-se formulado o enigma de cuja resposta depende a vida de Arthur...</span>
 
           <div>
             <h2>⭐⭐⭐⭐⭐ 5 de 5 estrelas (7 avaliações)</h2>
@@ -38,13 +38,13 @@ export default function Home() {
         <SingleComment>
           <h1>⭐⭐⭐⭐⭐ Muito bom!</h1>
           <p>Por: Amanda Iassia, em: 10/10/2021</p>
-          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos impedit necessitatibus atque! Minus sequi quis repudiandae consequatur quia</span>
+          <span>Livro encantador, uma das melhores histórias que ja li!</span>
         </SingleComment> 
 
         <SingleComment last>
           <h1>⭐⭐⭐⭐ Ótimo livro!!</h1>
           <p>Por: Aline Da Silva, em: 10/10/2021</p>
-          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos impedit necessitatibus atque! Minus sequi quis repudiandae consequatur quia</span>
+          <span>A capa me convenceu a comprar, e a história é um clássico, um prazer de ler.''</span>
         </SingleComment>
         
       </ContainerComments>
