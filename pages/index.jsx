@@ -42,7 +42,7 @@ export default function Home() {
         </SingleComment> 
 
         <SingleComment last>
-          <h1>⭐⭐⭐⭐ Ótimo livro!!</h1>
+          <h1>⭐⭐⭐⭐ Adorei!</h1>
           <p>Por: Aline Da Silva, em: 10/10/2021</p>
           <span>A capa me convenceu a comprar, e a história é um clássico, um prazer de ler.</span>
         </SingleComment>

@@ -18,35 +18,35 @@ export default function ACarta() {
 
             <Container>
                 <Description>
-                <h1>A Carta</h1>
-                <p>De pero vaz de caminha</p>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis assumenda inventore consectetur. autem voluptas nesciunt hic accusantium cupiditate eius minima consectetur voluptatibus aperiam.</span>
+                    <h1>A Carta</h1>
+                    <p>De pero vaz de caminha</p>
+                    <span>Escrita por Pero (Pedro) Vaz de Caminha (1450 – 1500), fidalgo português e escrivão oficial da esquadra de Pedro Álvares Cabral (1467 – 1520), a Carta é um dos documentos mais importantes da história dos descobrimentos portugueses. Em 1500, Caminha foi nomeado escrivão da feitoria a ser erguida em Calicute, na índia, razão pela qual se encontrava na nau capitânia da armada de Cabral naquele mesmo ano, quando a mesma encontrou o Brasil.</span>
 
-                <div>
-                    <h2>⭐⭐⭐⭐⭐ 5 de 5 estrelas (7 avaliações)</h2>
-                </div>
+                    <div>
+                        <h2>⭐⭐⭐⭐⭐ 5 de 5 estrelas (7 avaliações)</h2>
+                    </div>
 
-                <h3 style={{color: '#061db3'}}>Autor: Howard Pyle</h3>
+                    <h3 style={{color: '#061db3'}}>Autor: Howard Pyle</h3>
 
-                <Mainbtn href='#'>Adquira já</Mainbtn>
+                    <Mainbtn href='#'>Adquira já</Mainbtn>
                 </Description>
                 <ContainerImg>
-                <img src={ACartaImg.src} alt="Capa do livro rei arthur" />
+                    <img src={ACartaImg.src} alt="Capa do livro rei arthur" />
                 </ContainerImg>
             </Container>
             <ContainerComments>
                 <h1 className='title'>Avaliações do livro</h1>
 
                 <SingleComment>
-                <h1>⭐⭐⭐⭐⭐ Muito bom!</h1>
-                <p>Por: Amanda Iassia, em: 10/10/2021</p>
-                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos impedit necessitatibus atque! Minus sequi quis repudiandae consequatur quia</span>
+                    <h1>⭐⭐⭐⭐ Gostei muito!</h1>
+                    <p>Por: Amauri Marcos, em: 10/10/2021</p>
+                    <span>recomendo para todos, leitura muito importante!</span>
                 </SingleComment> 
 
                 <SingleComment last>
-                <h1>⭐⭐⭐⭐ Ótimo livro!!</h1>
-                <p>Por: Aline Da Silva, em: 10/10/2021</p>
-                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos impedit necessitatibus atque! Minus sequi quis repudiandae consequatur quia</span>
+                    <h1>⭐⭐⭐⭐ Ótimo livro!!</h1>
+                    <p>Por: Raimunda Charles, em: 10/10/2021</p>
+                    <span>Adorei o livro, recomendo 😺</span>
                 </SingleComment>
                 
             </ContainerComments>
