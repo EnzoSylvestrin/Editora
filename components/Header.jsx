@@ -83,7 +83,7 @@ export default function Header() {
         <header>
             <NavMenu className='main-bar'>
                 <Logo>
-                    <h1>LOGO</h1>
+                    <h1></h1>
                 </Logo>
                 <MenuResponsive id="menu" ref={menuResponsive}>
                     <div className="line-1"></div>
