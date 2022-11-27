@@ -21,7 +21,7 @@ export default function Home() {
           <span>O livro relata as batalhas de Arthur com o Cavaleiro Negro e com o Duque da Nortúmbria, e seus esforços para manter consigo a mágica Excalibur; seu amor por Lady Guinevere e as origens da Távola Redonda; Merlin, traído pela feiticeira Vivien, além de Morgana e a Dama do Lago; Sir Pellias, Sir Gawaine e tantos outros nobres cavaleiros. E, ao fim, vê-se formulado o enigma de cuja resposta depende a vida de Arthur...</span>
 
           <div>
-            <h2>⭐⭐⭐⭐⭐ 5 de 5 estrelas (7 avaliações)</h2>
+            <h2>⭐⭐⭐⭐⭐ 5 de 5 estrelas (3 avaliações)</h2>
           </div>
 
           <h3 style={{color: '#805318'}}>Autor: Howard Pyle</h3>

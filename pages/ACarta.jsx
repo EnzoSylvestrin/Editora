@@ -23,10 +23,10 @@ export default function ACarta() {
                     <span>Escrita por Pero (Pedro) Vaz de Caminha (1450 – 1500), fidalgo português e escrivão oficial da esquadra de Pedro Álvares Cabral (1467 – 1520), a Carta é um dos documentos mais importantes da história dos descobrimentos portugueses. Em 1500, Caminha foi nomeado escrivão da feitoria a ser erguida em Calicute, na índia, razão pela qual se encontrava na nau capitânia da armada de Cabral naquele mesmo ano, quando a mesma encontrou o Brasil.</span>
 
                     <div>
-                        <h2>⭐⭐⭐⭐⭐ 5 de 5 estrelas (7 avaliações)</h2>
+                        <h2>⭐⭐⭐⭐⭐ 5 de 5 estrelas (4 avaliações)</h2>
                     </div>
 
-                    <h3 style={{color: '#061db3'}}>Autor: Howard Pyle</h3>
+                    <h3 style={{color: '#061db3'}}>Autor: Pero vaz de caminha</h3>
 
                     <Mainbtn href='#'>Adquira já</Mainbtn>
                 </Description>
