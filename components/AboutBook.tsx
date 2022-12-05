@@ -6,25 +6,27 @@ type IAbout = {
   titulo: string;
   subtitulo?: string;
   sinopse: string;
-  Autor: string;
+  autor: string;
   cor: string;
   imagem: string;
 }
 
 const AboutBook = (props : IAbout) => {
+  return(
     <Container>
       <Description>
         <h1>{props.titulo}</h1>
         {props.subtitulo ? <p>{props.subtitulo}</p> : <></>}
         <span>{props.sinopse}</span>
 
-        <h3 style={{color: props.cor}}>Autor: {props.Autor}</h3>
+        <h3 style={{color: props.cor}}>Autor: {props.autor}</h3>
 
       </Description>
       <ContainerImg>
-        <img src={ReiArthur.src} alt="Capa do livro" />
+        <img src={props.imagem} alt="Capa do livro" />
       </ContainerImg>
     </Container>
+  )
 }
 
 export default AboutBook;
