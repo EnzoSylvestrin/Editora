@@ -1,7 +1,8 @@
-import Head from 'next/head'
-import AboutBook from '../components/AboutBook';
-import Footer from '../components/Footer';
+import Head from 'next/head';
 
+import AboutBook from '../components/AboutBook';
+import Relanca from '../components/Relanca';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 import ReiArthur from '../public/assets/ReiArthurImg.jpg';
@@ -25,18 +26,11 @@ export default function Home() {
         imagem = {ReiArthur.src}
       />
 
-      <ContainerRe>
-        <h1>Reelançamento</h1>
-
-        <WrapperRe>
-          <div>
-            <p>Publicação: Livro digital</p>
-            <p>Adicionais: Chaveiro com espada</p>
-            <p>Preço: R$ 34,99</p>
-          </div>
-        </WrapperRe>
-
-      </ContainerRe>
+      <Relanca 
+        publicacao = "Livro digital"
+        Adicionais = "Chaveiro com espada"
+        preço = {34.99}
+      />
 
       <Footer />
     </>
