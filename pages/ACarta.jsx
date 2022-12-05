@@ -4,6 +4,8 @@ import { Container, ContainerImg, ContainerRe, Description, WrapperRe} from "../
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import AboutBook from '../components/AboutBook';
+import Relanca from '../components/Relanca';
 
 import ACartaImg from '../public/assets/ACartaImg.jpg';
 
