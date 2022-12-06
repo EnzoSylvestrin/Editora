@@ -2,8 +2,8 @@ import { ContainerRe, WrapperRe} from "../styles/HomeStyled";
 
 type IRelanca = {
     publicacao: string;
-    adicionais?: string;
     evento?: string;
+    adicionais?: string;
     preco: number;
 }
 
@@ -15,8 +15,8 @@ const Relanca = (props : IRelanca) => {
             <WrapperRe>
                 <div>
                     <p>Publicação: {props.publicacao}</p>
-                    <p>Evento de lançamento: {props.evento}</p>
-                    <p>Adicionais: {props.adicionais}</p>
+                    {props.evento ? <p>Evento de lançamento: {props.evento}</p> : ''}
+                    {props.adicionais ? <p>Adicionais: {props.adicionais}</p> : ''}
                     <p>Preço: R$ {props.preco.toFixed(2)}</p>
                 </div>
             </WrapperRe>

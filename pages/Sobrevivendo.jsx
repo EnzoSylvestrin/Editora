@@ -30,7 +30,7 @@ export default function Sobrevivendo() {
                 publicacao = "Livro digital"
                 evento = "Saraiva"
                 adicionais = "Capa dura"
-                preço = {39.99}
+                preco = {39.99}
             />
 
             <Footer />

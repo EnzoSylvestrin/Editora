@@ -29,7 +29,7 @@ export default function Home() {
       <Relanca 
         publicacao = "Livro digital"
         Adicionais = "Chaveiro com espada"
-        preço = {34.99}
+        preco = {34.99}
       />
 
       <Footer />

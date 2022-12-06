@@ -29,7 +29,7 @@ export default function ACarta() {
 
             <Relanca 
                 publicacao = "Livro digital"
-                preço = {29.99}
+                preco = {29.99}
             />
 
             <Footer />
