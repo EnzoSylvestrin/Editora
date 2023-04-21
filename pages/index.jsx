@@ -7,8 +7,6 @@ import Header from '../components/Header';
 
 import ReiArthur from '../public/assets/ReiArthurImg.jpg';
 
-import { Container, ContainerImg, ContainerRe, Description, WrapperRe } from '../styles/HomeStyled';
-
 export default function Home() {
   return (
     <>

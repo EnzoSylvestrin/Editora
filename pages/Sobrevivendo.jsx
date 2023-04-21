@@ -1,7 +1,5 @@
 import Head from "next/head";
 
-import { Container, ContainerImg, ContainerRe, Description, WrapperRe } from "../styles/HomeStyled";
-
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import AboutBook from '../components/AboutBook';
